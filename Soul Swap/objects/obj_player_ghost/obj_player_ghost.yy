@@ -4,6 +4,7 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_player_ghost",
@@ -13,8 +14,8 @@
     "path":"folders/Objects/Mobs.yy",
   },
   "parentObjectId":{
-    "name":"obj_posessable_parent",
-    "path":"objects/obj_posessable_parent/obj_posessable_parent.yy",
+    "name":"obj_possessable_parent",
+    "path":"objects/obj_possessable_parent/obj_possessable_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -38,7 +39,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_ghost",
+    "path":"sprites/spr_ghost/spr_ghost.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
