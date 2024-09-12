@@ -43,6 +43,7 @@
     {"id":{"name":"Find_Vessel","path":"scripts/Find_Vessel/Find_Vessel.yy",},},
     {"id":{"name":"Mob_AI","path":"scripts/Mob_AI/Mob_AI.yy",},},
     {"id":{"name":"Player_Movement","path":"scripts/Player_Movement/Player_Movement.yy",},},
+    {"id":{"name":"Try_Possession","path":"scripts/Try_Possession/Try_Possession.yy",},},
     {"id":{"name":"spr_ghost","path":"sprites/spr_ghost/spr_ghost.yy",},},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
     {"id":{"name":"spr_town_gate","path":"sprites/spr_town_gate/spr_town_gate.yy",},},
