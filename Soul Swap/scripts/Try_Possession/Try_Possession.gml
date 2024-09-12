@@ -5,7 +5,7 @@ function Try_Possession(range)
 	var vessel = Find_Vessel(range);
 
 	//Make sure vessel is valid
-	if(!vessel==noone)
+	if(vessel != noone)
 	{	
 		//Set the new vessel as possessed
 		vessel.player_possessed = true;
