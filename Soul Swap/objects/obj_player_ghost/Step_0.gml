@@ -11,7 +11,7 @@ if (keyboard_check(possess_key))
 	}
 	else
 	{
-		possess_key_held++;
+		possess_key_held += 1;
 	}
 }
 else //no longer held, nullify counter
