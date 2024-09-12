@@ -40,6 +40,7 @@
     {"id":{"name":"obj_unnamed_enemy","path":"objects/obj_unnamed_enemy/obj_unnamed_enemy.yy",},},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
+    {"id":{"name":"Find_Vessel","path":"scripts/Find_Vessel/Find_Vessel.yy",},},
     {"id":{"name":"Mob_AI","path":"scripts/Mob_AI/Mob_AI.yy",},},
     {"id":{"name":"Player_Movement","path":"scripts/Player_Movement/Player_Movement.yy",},},
     {"id":{"name":"spr_ghost","path":"sprites/spr_ghost/spr_ghost.yy",},},

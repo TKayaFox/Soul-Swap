@@ -1,2 +1,2 @@
 /// @description Initialize Object
-player_controlled = false;
+player_possessed = false;

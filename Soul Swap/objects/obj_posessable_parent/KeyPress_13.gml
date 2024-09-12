@@ -1,6 +1,9 @@
 /// @description Leave Body on [Enter] if Player Posessed
 
-if(player_posessed)
+if(player_possessed)
 {
-	//???Do stuff
+	//Check for nearest_vessel
+	if (!nearest_vessel==null)
+	{
+	}
 }
