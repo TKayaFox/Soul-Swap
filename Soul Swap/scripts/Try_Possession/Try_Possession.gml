@@ -11,6 +11,6 @@ function Try_Possession(range)
 		vessel.player_possessed = true;
 		
 		//Destroy ghost
-		//instance_destroy();
+		instance_destroy();
 	}
 }

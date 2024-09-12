@@ -1,4 +1,7 @@
-/// @description Attempt Possession if [Enter] key is held
+/// @description Movement and Possession
+
+//Handle character movement using movement script
+movement(keyboard_check(ord("A")), keyboard_check(ord("D")), keyboard_check(ord("W")), keyboard_check(ord("S")), hspeed, vspeed, move_speed);
 
 // Inherit the parent step event
 event_inherited();
