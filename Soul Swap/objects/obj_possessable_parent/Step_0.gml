@@ -9,5 +9,4 @@ if (player_possessed == false)
 //else allow player input
 else
 {
-	movement(keyboard_check(ord("A")), keyboard_check(ord("D")), keyboard_check(ord("W")), keyboard_check(ord("S")), hspeed, vspeed, move_speed);
 }

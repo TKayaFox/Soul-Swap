@@ -1,11 +1,5 @@
 /// @description Movement and Possession
 
-//Handle character movement using movement script
-movement(keyboard_check(ord("A")), keyboard_check(ord("D")), keyboard_check(ord("W")), keyboard_check(ord("S")), hspeed, vspeed, move_speed);
-
-// Inherit the parent step event
-event_inherited();
-
 //Check for keypress of possess_key (enter)
 if (keyboard_check(possess_key))
 {
