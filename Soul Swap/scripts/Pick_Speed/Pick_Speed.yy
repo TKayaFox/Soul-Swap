@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Pick_Speed",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Pick_Speed",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
