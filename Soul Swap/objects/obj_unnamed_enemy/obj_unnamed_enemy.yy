@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_unnamed_enemy",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_unnamed_enemy",
   "overriddenProperties":[],
@@ -10,8 +12,8 @@
     "path":"folders/Objects/Mobs.yy",
   },
   "parentObjectId":{
-    "name":"obj_posessable_parent",
-    "path":"objects/obj_posessable_parent/obj_posessable_parent.yy",
+    "name":"obj_possessable_parent",
+    "path":"objects/obj_possessable_parent/obj_possessable_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_unnamed_enemy",
+    "path":"sprites/spr_unnamed_enemy/spr_unnamed_enemy.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
