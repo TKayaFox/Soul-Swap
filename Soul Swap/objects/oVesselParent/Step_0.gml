@@ -3,8 +3,11 @@
 //only do AI logic if computer controlled
 if (player_possessed == false)
 {
+	//get player instance id from controller
+	var player_vessel = oController.player_vessel;
+	
 	//Follow AI Logic Script
-	Mob_AI(3,true,oVesselParent,oWall);
+	Mob_AI(3,true,player_vessel,oWall);
 }
 
 //else allow player input

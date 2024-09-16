@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oSkeleton",
+  "%Name":"oZombie",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oSkeleton",
+  "name":"oZombie",
   "overriddenProperties":[],
   "parent":{
     "name":"Mobs",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSkeletonDown",
-    "path":"sprites/sSkeletonDown/sSkeletonDown.yy",
+    "name":"sZombieDown",
+    "path":"sprites/sZombieDown/sZombieDown.yy",
   },
   "spriteMaskId":null,
   "visible":true,
