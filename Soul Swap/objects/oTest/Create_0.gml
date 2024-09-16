@@ -1,3 +1,3 @@
-spd = 5;
-accel = 2;
+spd = 10;
+accel = 4;
 frict = .3;
