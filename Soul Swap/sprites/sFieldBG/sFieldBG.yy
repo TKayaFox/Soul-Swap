@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"sFieldBG",
   "bboxMode":0,
-  "bbox_bottom":499,
+  "bbox_bottom":511,
   "bbox_left":0,
-  "bbox_right":499,
+  "bbox_right":511,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":500,
+  "height":512,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"c1636322-00e4-430a-ba18-096a85dfc6f0","blendMode":0,"displayName":"default","isLocked":false,"name":"c1636322-00e4-430a-ba18-096a85dfc6f0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":500,
+  "width":512,
 }

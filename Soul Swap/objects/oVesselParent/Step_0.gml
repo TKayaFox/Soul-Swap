@@ -7,12 +7,12 @@ if (player_possessed == false)
 	var player_vessel = oController.player_vessel;
 	
 	//Follow AI Logic Script
-	Mob_AI(3,true,player_vessel,oWall);
+	Mob_AI(enemySpd,diagonalPathing,target,pathingUpdateWait);
 }
 
 //else allow player input
 else
 {
 	//Use Movement script to handle movement
-	Player_Movement(spd,accel,frict);
+	Player_Movement(playerSpd,accel,frict,0);
 }

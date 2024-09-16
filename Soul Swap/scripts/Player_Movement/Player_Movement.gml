@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function Player_Movement(pSpeed, pAcceleration, pFriction){
+function Player_Movement(pSpeed, pAcceleration, pFriction, collisionBuffer){
 
 	xVel = 0;
 	yVel = 0;
@@ -40,8 +40,8 @@ function Player_Movement(pSpeed, pAcceleration, pFriction){
 	xVel = clamp(xVel,-pSpeed,pSpeed);
 
 	//X Collision
-	if(place_meeting(x + xVel,y,oWall)){
-		while(!place_meeting(x + sign(xVel),y,oWall)){
+	if(place_meeting(x + xVel + (sign(xVel)*collisionBuffer),y,oWall)){
+		while(!place_meeting(x + sign(xVel) + (sign(xVel)*collisionBuffer),y,oWall)){
 			x += sign(xVel);
 		}
 		xVel = 0;
@@ -50,8 +50,8 @@ function Player_Movement(pSpeed, pAcceleration, pFriction){
 	x += xVel;
 
 	//Y Collision
-	if(place_meeting(x,y + yVel,oWall)){
-		while(!place_meeting(x,y + sign(yVel),oWall)){
+	if(place_meeting(x,y + yVel + (sign(yVel)*collisionBuffer),oWall)){
+		while(!place_meeting(x,y + sign(yVel) + (sign(yVel)*collisionBuffer),oWall)){
 			y += sign(yVel);
 		}
 		yVel = 0;
