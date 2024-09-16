@@ -1,5 +1,8 @@
 /// @description Movement and Possession
 
+//Use Movement script to handle movement
+Player_Movement(spd,accel,frict);
+
 //Check for keypress of possess_key (enter)
 if (keyboard_check(possess_key))
 {
