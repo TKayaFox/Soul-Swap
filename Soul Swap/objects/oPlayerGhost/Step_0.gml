@@ -10,6 +10,7 @@ if (keyboard_check(possess_key))
 	if (possess_key_held >= possess_hold_delay)
 	{
 		Try_Possession(possess_range);
+		audio_play_sound(snd_Soul_Swap, 1, false);
 		possess_key_held=0;
 	}
 	else

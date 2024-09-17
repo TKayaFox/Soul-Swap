@@ -24,6 +24,7 @@
     {"name":"inst_12225482","path":"rooms/rmLevel/rmLevel.yy",},
     {"name":"inst_15C6091F","path":"rooms/rmLevel/rmLevel.yy",},
     {"name":"inst_5606789","path":"rooms/rmLevel/rmLevel.yy",},
+    {"name":"inst_569C98D9","path":"rooms/rmLevel/rmLevel.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -48,6 +49,7 @@
         {"$GMRInstance":"v1","%Name":"inst_12225482","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_12225482","objectId":{"name":"oZombie","path":"objects/oZombie/oZombie.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":336.0,},
         {"$GMRInstance":"v1","%Name":"inst_15C6091F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_15C6091F","objectId":{"name":"oZombie","path":"objects/oZombie/oZombie.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":304.0,"y":192.0,},
         {"$GMRInstance":"v1","%Name":"inst_5606789","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5606789","objectId":{"name":"oZombie","path":"objects/oZombie/oZombie.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":224.0,},
+        {"$GMRInstance":"v1","%Name":"inst_569C98D9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_569C98D9","objectId":{"name":"oBattleLevelMusic","path":"objects/oBattleLevelMusic/oBattleLevelMusic.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_288A7D27","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_288A7D27","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sGate","path":"sprites/sGate/sGate.yy",},"x":224.0,"y":32.0,},
