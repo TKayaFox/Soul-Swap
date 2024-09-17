@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"oController",
+  "%Name":"obj_town_gate",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oController",
+  "name":"obj_town_gate",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ghost",
-    "path":"sprites/spr_ghost/spr_ghost.yy",
+    "name":"spr_town_gate",
+    "path":"sprites/spr_town_gate/spr_town_gate.yy",
   },
   "spriteMaskId":null,
   "visible":true,
