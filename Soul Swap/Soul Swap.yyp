@@ -68,6 +68,7 @@
     {"id":{"name":"Pick_Speed","path":"scripts/Pick_Speed/Pick_Speed.yy",},},
     {"id":{"name":"Player_Movement","path":"scripts/Player_Movement/Player_Movement.yy",},},
     {"id":{"name":"Try_Possession","path":"scripts/Try_Possession/Try_Possession.yy",},},
+    {"id":{"name":"Update_Player_Instance","path":"scripts/Update_Player_Instance/Update_Player_Instance.yy",},},
     {"id":{"name":"Vessel_Leave","path":"scripts/Vessel_Leave/Vessel_Leave.yy",},},
     {"id":{"name":"snd_Battle_Music","path":"sounds/snd_Battle_Music/snd_Battle_Music.yy",},},
     {"id":{"name":"snd_Button_Click","path":"sounds/snd_Button_Click/snd_Button_Click.yy",},},

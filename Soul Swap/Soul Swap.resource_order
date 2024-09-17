@@ -35,6 +35,7 @@
     {"name":"rmLevel","order":2,"path":"rooms/rmLevel/rmLevel.yy",},
     {"name":"rmTitle","order":3,"path":"rooms/rmTitle/rmTitle.yy",},
     {"name":"Attack","order":2,"path":"scripts/Attack/Attack.yy",},
+    {"name":"Update_Player_Instance","order":4,"path":"scripts/Update_Player_Instance/Update_Player_Instance.yy",},
     {"name":"Vessel_Leave","order":3,"path":"scripts/Vessel_Leave/Vessel_Leave.yy",},
     {"name":"snd_Battle_Music","order":2,"path":"sounds/snd_Battle_Music/snd_Battle_Music.yy",},
     {"name":"sArrow","order":1,"path":"sprites/sArrow/sArrow.yy",},
