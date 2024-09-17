@@ -1,0 +1,21 @@
+{
+  "$GMPath":"",
+  "%Name":"PathTop",
+  "closed":false,
+  "kind":0,
+  "name":"PathTop",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":32.0,"y":800.0,},
+    {"speed":100.0,"x":1280.0,"y":800.0,},
+    {"speed":100.0,"x":1280.0,"y":672.0,},
+    {"speed":100.0,"x":416.0,"y":672.0,},
+    {"speed":100.0,"x":416.0,"y":320.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
