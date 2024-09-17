@@ -2,7 +2,7 @@
 function Find_Vessel(range)
 {
     // Find the nearest obj_possessable_parent around player
-    var vessel = instance_nearest(x, y, obj_possessable_parent);
+    var vessel = instance_nearest(x, y, oVesselParent);
 
 	//Check if object is in possessable range (if any are around) and not already possessed
 	if (vessel != noone && vessel.player_possessed==false)

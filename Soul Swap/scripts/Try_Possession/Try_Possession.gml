@@ -7,8 +7,9 @@ function Try_Possession(range)
 	//Make sure vessel is valid
 	if(vessel != noone)
 	{	
-		//Set the new vessel as possessed
+		//Set the new vessel as possessed (and update controller with their id
 		vessel.player_possessed = true;
+		oController.player_vessel = vessel.id;
 		
 		//Destroy ghost
 		instance_destroy();

@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Instructions_Button",
+  "%Name":"oReturnButt",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Instructions_Button",
+  "name":"oReturnButt",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sInstructionsButt",
-    "path":"sprites/sInstructionsButt/sInstructionsButt.yy",
+    "name":"sReturnButt",
+    "path":"sprites/sReturnButt/sReturnButt.yy",
   },
   "spriteMaskId":null,
   "visible":true,

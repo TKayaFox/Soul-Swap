@@ -20,7 +20,7 @@ function Player_Movement(pSpeed, pAcceleration, pFriction){
 	//Acceleration/Friction for X movement
 	if(inputX != 0){
 		//Accelerating
-		if(abs(xVel + sign(inputX) * pAcceleration) < 5) xVel += sign(inputX) * pAcceleration; else xVel = PickSpeed(pSpeed,inputX,inputY) * sign(inputX);
+		if(abs(xVel + sign(inputX) * pAcceleration) < 5) xVel += sign(inputX) * pAcceleration; else xVel = Pick_Speed(pSpeed,inputX,inputY) * sign(inputX);
 	}else{
 		//Slowing Down
 		if(abs(xVel) > pFriction) xVel -= sign(xVel) * pFriction; else xVel = 0;
@@ -29,7 +29,7 @@ function Player_Movement(pSpeed, pAcceleration, pFriction){
 	//Acceleration/Friction for Y movement
 	if(inputY != 0){
 		//Accelerating
-		if(abs(yVel + sign(inputY) * pAcceleration) < 5) yVel += sign(inputY) * pAcceleration; else yVel = PickSpeed(pSpeed,inputX,inputY) * sign(inputY);
+		if(abs(yVel + sign(inputY) * pAcceleration) < 5) yVel += sign(inputY) * pAcceleration; else yVel = Pick_Speed(pSpeed,inputX,inputY) * sign(inputY);
 	}else{
 		//Slowing Down
 		if(abs(yVel) > pFriction) yVel -= sign(yVel) * pFriction; else yVel = 0;
