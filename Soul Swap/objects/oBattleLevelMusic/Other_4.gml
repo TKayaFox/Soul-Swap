@@ -4,6 +4,6 @@
 //
 
 
-stopping menu music and playing battle musis
+//stopping menu music and playing battle musis
 audio_stop_sound(snd_Menu_Music);
 audio_play_sound(snd_Battle_Music, 0, false);
