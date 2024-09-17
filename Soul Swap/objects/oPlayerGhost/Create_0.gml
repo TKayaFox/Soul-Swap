@@ -13,4 +13,4 @@ accel = 4;
 frict = .3;
 
 //Isdentify self to controller as "Player"
-oController.player_vessel=id;
+Update_Player_Instance(id);
