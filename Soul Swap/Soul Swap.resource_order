@@ -12,6 +12,7 @@
     {"name":"oController","order":4,"path":"objects/oController/oController.yy",},
     {"name":"oReturnButt","order":2,"path":"objects/oReturnButt/oReturnButt.yy",},
     {"name":"oStartButt","order":1,"path":"objects/oStartButt/oStartButt.yy",},
+    {"name":"oZombie","order":1,"path":"objects/oZombie/oZombie.yy",},
     {"name":"rmInstructions","order":1,"path":"rooms/rmInstructions/rmInstructions.yy",},
     {"name":"rmLevel","order":2,"path":"rooms/rmLevel/rmLevel.yy",},
     {"name":"rmTitle","order":3,"path":"rooms/rmTitle/rmTitle.yy",},
@@ -38,5 +39,6 @@
     {"name":"sZombieRightAttack","order":5,"path":"sprites/sZombieRightAttack/sZombieRightAttack.yy",},
     {"name":"sZombieUp","order":6,"path":"sprites/sZombieUp/sZombieUp.yy",},
     {"name":"sZombieUpAttack","order":7,"path":"sprites/sZombieUpAttack/sZombieUpAttack.yy",},
+    {"name":"Temp","order":4,"path":"sprites/Temp/Temp.yy",},
   ],
 }
