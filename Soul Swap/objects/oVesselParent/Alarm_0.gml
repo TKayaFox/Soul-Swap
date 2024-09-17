@@ -1,6 +1,7 @@
 /// @description Pathing
 
 //get player instance id from controller
+
 target = oController.player_vessel;
 	
 //Path to Target

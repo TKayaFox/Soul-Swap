@@ -2,6 +2,10 @@
 player_possessed = false;
 hp = 1;
 
+//Possession key (for leaving possession)
+possess_key = vk_enter;
+possess_key2 = ord("E");
+
 //movement
 enemySpd = 1;
 playerSpd = 10;

@@ -1,9 +1,10 @@
 /// @description Initialize
 
 //initialize posession range specs and key input to possess other
-possess_hold_delay= 30;
-possess_range = 60;
+possess_hold_delay= 15;
+possess_range = 40;
 possess_key = vk_enter;
+possess_key2 = ord("E");
 possess_key_held = 0;
 
 //movement
