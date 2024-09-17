@@ -39,6 +39,7 @@
     {"name":"Vessel_Leave","order":3,"path":"scripts/Vessel_Leave/Vessel_Leave.yy",},
     {"name":"snd_Battle_Music","order":2,"path":"sounds/snd_Battle_Music/snd_Battle_Music.yy",},
     {"name":"sArrow","order":1,"path":"sprites/sArrow/sArrow.yy",},
+    {"name":"sController","order":32,"path":"sprites/sController/sController.yy",},
     {"name":"sFieldBG","order":1,"path":"sprites/sFieldBG/sFieldBG.yy",},
     {"name":"sGate","order":2,"path":"sprites/sGate/sGate.yy",},
     {"name":"sGhostDown","order":3,"path":"sprites/sGhostDown/sGhostDown.yy",},
