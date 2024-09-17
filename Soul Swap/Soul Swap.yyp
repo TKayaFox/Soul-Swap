@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Soul Swap",
   "resources":[
@@ -62,8 +62,8 @@
     {"id":{"name":"rmLevel","path":"rooms/rmLevel/rmLevel.yy",},},
     {"id":{"name":"rmRoom1","path":"rooms/rmRoom1/rmRoom1.yy",},},
     {"id":{"name":"rmTitle","path":"rooms/rmTitle/rmTitle.yy",},},
+    {"id":{"name":"Attack","path":"scripts/Attack/Attack.yy",},},
     {"id":{"name":"Find_Vessel","path":"scripts/Find_Vessel/Find_Vessel.yy",},},
-    {"id":{"name":"Mob_AI","path":"scripts/Mob_AI/Mob_AI.yy",},},
     {"id":{"name":"Pick_Speed","path":"scripts/Pick_Speed/Pick_Speed.yy",},},
     {"id":{"name":"Player_Movement","path":"scripts/Player_Movement/Player_Movement.yy",},},
     {"id":{"name":"Try_Possession","path":"scripts/Try_Possession/Try_Possession.yy",},},

@@ -12,3 +12,11 @@ frict = .3;
 target = oPlayerGhost;
 pathingUpdateWait = 60;
 diagonalPathing = true;
+pathingCounter = pathingUpdateWait;
+isPathing = true;
+path = path_add();
+
+//attacking
+damage = 1;
+atkCD = 60;
+atkRange = 10;

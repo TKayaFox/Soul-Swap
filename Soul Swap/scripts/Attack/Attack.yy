@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Mob_AI",
+  "%Name":"Attack",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Mob_AI",
+  "name":"Attack",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
