@@ -29,6 +29,7 @@
     {"name":"oController","order":3,"path":"objects/oController/oController.yy",},
     {"name":"oReturnButt","order":2,"path":"objects/oReturnButt/oReturnButt.yy",},
     {"name":"oStartButt","order":1,"path":"objects/oStartButt/oStartButt.yy",},
+    {"name":"oTownGate","order":1,"path":"objects/oTownGate/oTownGate.yy",},
     {"name":"oZombie","order":1,"path":"objects/oZombie/oZombie.yy",},
     {"name":"rmInstructions","order":1,"path":"rooms/rmInstructions/rmInstructions.yy",},
     {"name":"rmLevel","order":2,"path":"rooms/rmLevel/rmLevel.yy",},
