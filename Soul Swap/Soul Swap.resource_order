@@ -2,11 +2,11 @@
   "FolderOrderSettings":[
     {"name":"Buttons","order":5,"path":"folders/Objects/Buttons.yy",},
     {"name":"Map","order":6,"path":"folders/Objects/Map.yy",},
-    {"name":"Zombie","order":2,"path":"folders/Sprites/Mobs/Zombie.yy",},
     {"name":"Map","order":30,"path":"folders/Sprites/Map.yy",},
     {"name":"Menu","order":31,"path":"folders/Sprites/Menu.yy",},
     {"name":"Mobs","order":29,"path":"folders/Sprites/Mobs.yy",},
     {"name":"PlayerGhost","order":1,"path":"folders/Sprites/Mobs/PlayerGhost.yy",},
+    {"name":"Zombie","order":2,"path":"folders/Sprites/Mobs/Zombie.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"oController","order":4,"path":"objects/oController/oController.yy",},
