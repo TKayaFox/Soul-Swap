@@ -7,7 +7,11 @@ if (player_possessed == false)
 	var player_vessel = oController.player_vessel;
 	
 	//Follow AI Logic Script
-	Mob_AI(enemySpd,diagonalPathing,target,pathingUpdateWait);
+	if(isPathing){
+		if(alarm[0] = -1){
+			alarm[0] = pathingUpdateWait;
+		}
+	}
 }
 
 //else allow player input
