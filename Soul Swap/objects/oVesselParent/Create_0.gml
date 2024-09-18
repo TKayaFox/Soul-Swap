@@ -24,3 +24,4 @@ path = path_add();
 damage = 1;
 atkCD = 60;
 atkRange = 10;
+projectile_speed = 5;

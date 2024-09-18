@@ -1,5 +1,7 @@
 /// @description Initialize
 
+hp = 1;
+
 //initialize posession range specs and key input to possess other
 possess_hold_delay= 15;
 possess_range = 40;

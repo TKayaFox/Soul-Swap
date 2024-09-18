@@ -13,3 +13,4 @@ damage = 1;
 atkCD = 100;
 atkRange = 100;
 isRanged = true;
+projectile_speed = 5;

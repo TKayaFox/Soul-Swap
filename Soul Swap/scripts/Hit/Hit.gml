@@ -10,7 +10,7 @@ function Hit(damage, target)
 		//destroy target instance if 0 hp or less
 		if (target.hp <= 0)
 		{
-			target.instance_destroy();
+			instance_destroy(target);
 		}
 	}
 }
