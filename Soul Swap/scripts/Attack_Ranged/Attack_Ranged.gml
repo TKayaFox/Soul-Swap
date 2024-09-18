@@ -6,4 +6,5 @@ function Attack_Ranged(damage,attack_direction,projectile_speed)
 	projectile = instance_create_layer(x,y, "Instances", oProjectile);
 	projectile.direction = attack_direction;
 	projectile.speed = projectile_speed;
+	projectile.team = team;
 }

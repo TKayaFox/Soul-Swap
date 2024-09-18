@@ -7,5 +7,6 @@ function Vessel_Leave(){
 	
 		//allow control to return to computer for current vessel
 		player_possessed = false;
+		team = 0;
 	}
 }

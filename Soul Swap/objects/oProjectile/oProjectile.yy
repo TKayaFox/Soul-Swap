@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sArrow",
-    "path":"sprites/sArrow/sArrow.yy",
+    "name":"sArrow2",
+    "path":"sprites/sArrow2/sArrow2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

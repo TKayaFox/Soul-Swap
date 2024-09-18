@@ -5,4 +5,6 @@ damage = 1;
 speed = 1;
 direction = 0;
 
+team = 1;
+
 

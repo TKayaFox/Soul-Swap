@@ -82,6 +82,7 @@
     {"id":{"name":"snd_Menu_Music","path":"sounds/snd_Menu_Music/snd_Menu_Music.yy",},},
     {"id":{"name":"snd_Soul_Swap","path":"sounds/snd_Soul_Swap/snd_Soul_Swap.yy",},},
     {"id":{"name":"sArrow","path":"sprites/sArrow/sArrow.yy",},},
+    {"id":{"name":"sArrow2","path":"sprites/sArrow2/sArrow2.yy",},},
     {"id":{"name":"sController","path":"sprites/sController/sController.yy",},},
     {"id":{"name":"sDungeonFloor","path":"sprites/sDungeonFloor/sDungeonFloor.yy",},},
     {"id":{"name":"sDungeonWall","path":"sprites/sDungeonWall/sDungeonWall.yy",},},

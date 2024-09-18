@@ -1,6 +1,7 @@
 /// @description Initialize Object
 player_possessed = false;
 hp = 1;
+team = 0;
 
 //Possession key (for leaving possession)
 possess_key = vk_enter;
@@ -24,7 +25,7 @@ path = path_add();
 damage = 1;
 atkCD = 60;
 atkRange = 10;
-projectile_speed = 5;
+projectile_speed = 1;
 
 
 //Try to attack and start Attack logic loop
