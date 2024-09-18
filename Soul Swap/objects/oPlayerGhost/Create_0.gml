@@ -1,4 +1,6 @@
 /// @description Initialize
+team = 1;
+hp = 1;
 
 //initialize posession range specs and key input to possess other
 possess_hold_delay= 15;

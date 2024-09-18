@@ -6,6 +6,7 @@ if (player_possessed == false)
 	//Follow AI Logic Script
 	if(isPathing){
 		if(alarm[0] = -1){
+			//Pathing
 			alarm[0] = pathingUpdateWait;
 		}
 	}
