@@ -32,7 +32,6 @@
     {"name":"rmInstructions","order":1,"path":"rooms/rmInstructions/rmInstructions.yy",},
     {"name":"rmLevel","order":2,"path":"rooms/rmLevel/rmLevel.yy",},
     {"name":"rmTitle","order":3,"path":"rooms/rmTitle/rmTitle.yy",},
-    {"name":"Attack","order":2,"path":"scripts/Attack/Attack.yy",},
     {"name":"sArrow","order":1,"path":"sprites/sArrow/sArrow.yy",},
     {"name":"sFieldBG","order":1,"path":"sprites/sFieldBG/sFieldBG.yy",},
     {"name":"sGate","order":2,"path":"sprites/sGate/sGate.yy",},

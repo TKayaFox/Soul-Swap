@@ -8,14 +8,10 @@ hp = 10;
 damage = 1;
 atkCD = 60;
 atkRange = 10;
-
+pathingUpdateWait = 10;
 
 enum STATE{
-	possessed,
-	pathing,
-	stopped,
 	attacking,
-	dead
+	pathing,	
 }
-
 states = STATE.pathing;

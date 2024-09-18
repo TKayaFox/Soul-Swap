@@ -16,7 +16,6 @@ function Find_Vessel(range)
 			vessel = noone;
 		}
 	}
-	
 	//return the closest	
 	return vessel;
 }

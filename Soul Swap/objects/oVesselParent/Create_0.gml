@@ -15,6 +15,9 @@ diagonalPathing = true;
 pathingCounter = pathingUpdateWait;
 isPathing = true;
 path = path_add();
+xOffset = 0;
+yOffset = 0;
+pathOffset = 20;
 
 //attacking
 damage = 1;
