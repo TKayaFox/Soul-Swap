@@ -25,3 +25,7 @@ damage = 1;
 atkCD = 60;
 atkRange = 10;
 projectile_speed = 5;
+
+
+//Try to attack and start Attack logic loop
+alarm_set(1,1);

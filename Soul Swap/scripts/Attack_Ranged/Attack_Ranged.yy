@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Melee_Attack",
+  "%Name":"Attack_Ranged",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Melee_Attack",
+  "name":"Attack_Ranged",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
