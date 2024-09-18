@@ -10,7 +10,7 @@ diagonalPathing = true;
 
 //attacking
 damage = 2;
-atkCD = 60;
-atkRange = 350;
+atkCD = 70;
+atkRange = 300;
 isRanged = true;
 projectile_speed = 4;
