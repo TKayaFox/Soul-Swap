@@ -18,7 +18,7 @@ mp_grid_add_instances(global.grid,oWall,true);
 ///================================
 //Store array of mob objects to spawn   ADD NEW MOBS TO ARRAY HERE
 spawn_mobs =[oSkeleton, oZombie];
-num_mobs = array_length(spawn_mobs)-1; //array starts at 0
+num_mobs = array_length(spawn_mobs);
 spawn_frequency = 7; //Maximum time between spawns
 initial_spawn= 2;
 
