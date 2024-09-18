@@ -8,7 +8,7 @@ switch(states){
 	break;
 	
 	case STATE.attacking:
-		Attack(atkCD,atkRange,target);
+		Try_Attack(atkCD,atkRange,target);
 	break;
 	
 	case STATE.stopped:
