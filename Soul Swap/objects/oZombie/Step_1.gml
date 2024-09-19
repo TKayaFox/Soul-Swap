@@ -3,7 +3,9 @@ keyAttack = keyboard_check_pressed(vk_space);
 if(keyAttack & canAttack & player_possessed){
 	states = STATE.attacking
 }
-if(player_possessed) states = STATE.possessed;
+if(isStunned){
+	states = STATE.stunned;
+}
 
 switch(states){
 	case STATE.attacking:
@@ -12,12 +14,21 @@ switch(states){
 		isAttacking = true;
 		if(alarm[1] == -1) alarm[1] = atkCD;
 	break;
+	
 	case STATE.pathing:
 		isPathing = true;
 	break;
-	case STATE.stopped:
-		isPathing = false;
+	
+	case STATE.stunned:
+		if(isStunned){
+			isPathing = false;
+			if(sprite_index != sZombieStunned){
+				sprite_index = sZombieStunned;
+			}
+			if(alarm[2] == -1) alarm[2] = stunTime;
+		}
 	break;
+	
 	case STATE.possessed:
 		isPathing = false;
 	break;
@@ -33,6 +44,7 @@ if(isAttacking){
 	if(image_index >= image_number - 1){
 		sprite_index = sZombieDown;
 		isAttacking = false;
-		states = STATE.pathing;
+		if(player_possessed) states = STATE.possessed;
+		else states = STATE.pathing;
 	}
 }

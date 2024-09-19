@@ -54,6 +54,7 @@
     {"name":"sZombieRight","order":4,"path":"sprites/sZombieRight/sZombieRight.yy",},
     {"name":"sZombieRightAttack","order":5,"path":"sprites/sZombieRightAttack/sZombieRightAttack.yy",},
     {"name":"sZombieSlashMask","order":6,"path":"sprites/sZombieSlashMask/sZombieSlashMask.yy",},
+    {"name":"sZombieStunned","order":8,"path":"sprites/sZombieStunned/sZombieStunned.yy",},
     {"name":"sZombieUp","order":6,"path":"sprites/sZombieUp/sZombieUp.yy",},
     {"name":"sZombieUpAttack","order":7,"path":"sprites/sZombieUpAttack/sZombieUpAttack.yy",},
     {"name":"Temp","order":4,"path":"sprites/Temp/Temp.yy",},

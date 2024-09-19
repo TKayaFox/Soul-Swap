@@ -9,6 +9,7 @@ function Try_Possession(range)
 	{	
 		//Set the new vessel as possessed (and update controller with their id
 		vessel.player_possessed = true;
+		vessel.states = STATE.possessed;
 		oController.player_vessel = vessel.id;
 		
 		//Destroy ghost

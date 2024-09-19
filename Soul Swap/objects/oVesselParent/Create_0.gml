@@ -7,6 +7,8 @@ enemySpd = 1;
 playerSpd = 10;
 accel = 4;
 frict = .3;
+stunTime = 30;
+isStunned = false;
 
 //pathing
 target = oPlayerGhost;

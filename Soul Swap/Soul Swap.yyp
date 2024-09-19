@@ -92,6 +92,7 @@
     {"id":{"name":"sZombieRight","path":"sprites/sZombieRight/sZombieRight.yy",},},
     {"id":{"name":"sZombieRightAttack","path":"sprites/sZombieRightAttack/sZombieRightAttack.yy",},},
     {"id":{"name":"sZombieSlashMask","path":"sprites/sZombieSlashMask/sZombieSlashMask.yy",},},
+    {"id":{"name":"sZombieStunned","path":"sprites/sZombieStunned/sZombieStunned.yy",},},
     {"id":{"name":"sZombieUp","path":"sprites/sZombieUp/sZombieUp.yy",},},
     {"id":{"name":"sZombieUpAttack","path":"sprites/sZombieUpAttack/sZombieUpAttack.yy",},},
     {"id":{"name":"Temp","path":"sprites/Temp/Temp.yy",},},

@@ -6,9 +6,10 @@ event_inherited();
 
 hp = 10;
 damage = 1;
-atkCD = 60;
+atkCD = 20;
 atkRange = 10;
 pathingUpdateWait = 10;
+stunTime = 120;
 
 attackCollisionMask = sZombieSlashMask;
 attackSprite = sZombieLeftAttack;
@@ -16,7 +17,7 @@ attackSprite = sZombieLeftAttack;
 enum STATE{
 	attacking,
 	pathing,
-	stopped,
+	stunned,
 	possessed
 }
-states = STATE.stopped;
+states = STATE.pathing;
