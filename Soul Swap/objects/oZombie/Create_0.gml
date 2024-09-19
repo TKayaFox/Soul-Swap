@@ -10,7 +10,7 @@ atkCD = 60;
 atkRange = 30;
 pathingUpdateWait = 10;
 stunTime = 120;
-
+target = oPlayerGhost;
 attackCollisionMask = sZombieLeftMask;
 attackSprite = sZombieLeftAttack;
 idleSprite = sZombieDown;

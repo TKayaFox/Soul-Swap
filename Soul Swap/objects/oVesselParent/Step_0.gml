@@ -48,4 +48,7 @@ else
 {
 	//Use Movement script to handle movement
 	Player_Movement(playerSpd,accel,frict,0);
+	directionX = inputX;
+	directionY = inputY;
+	show_debug_message(string(inputX) + " " + string(inputY));
 }

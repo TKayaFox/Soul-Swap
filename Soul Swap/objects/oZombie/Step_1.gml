@@ -1,5 +1,7 @@
 keyAttack = keyboard_check_pressed(vk_space);
-
+if(target == oTownGate){
+	pathOffset = 10;
+}
 
 //Attack when in possession state
 if(keyAttack & canAttack & player_possessed){
@@ -14,6 +16,7 @@ if(isStunned)	states = STATE.stunned;
 
 switch(states){
 	case STATE.attacking:
+		image_speed = 1;
 		isPathing = false;
 		canAttack = false;
 		isAttacking = true;
@@ -22,16 +25,20 @@ switch(states){
 	
 	case STATE.pathing:
 		isPathing = true;
-		//Sprite Stuff
+		//Pahting sprite Stuff
 		//0 = right; 1 = Up; 2 = Left; 3 = Down
 		if(directionNum == 0){
-			sprite_index = sZombieRight
+			sprite_index = sZombieRight;
+			idleSprite = sZombieRight;
 		}else if(directionNum == 1){
-			sprite_index = sZombieUp
+			sprite_index = sZombieUp;
+			idleSprite = sZombieUp;
 		}else if(directionNum == 2){
-			sprite_index = sZombieLeft
+			sprite_index = sZombieLeft;
+			idleSprite = sZombieLeft;
 		}else if(directionNum == 3){
-			sprite_index = sZombieDown
+			sprite_index = sZombieDown;
+			idleSprite = sZombieDown;
 		}
 	break;
 	
@@ -47,8 +54,61 @@ switch(states){
 	
 	case STATE.possessed:
 		isPathing = false;
+		
+		path_end();
+		//Possessed Sprite Stuff
+		if(!isAttacking){
+			if(directionX > 0 && directionY == 0 or directionY > 0 && directionX > 0){
+				//Moving Right
+				image_speed = 1;
+				sprite_index = sZombieRight;
+				idleSprite = sZombieRight;
+			
+			}else if(directionX < 0 && directionY == 0 or directionY < 0 && directionX > 0){
+				//Moving Left
+				image_speed = 1;
+				sprite_index = sZombieLeft;
+				idleSprite = sZombieLeft;
+			
+			}else if(directionY < 0 && directionX == 0 or directionY < 0 && directionX < 0){
+				//Moving Up
+				image_speed = 1;
+				sprite_index = sZombieUp;
+				idleSprite = sZombieUp;
+			
+			}else if(directionY > 0 && directionX == 0 or directionY > 0 && directionX < 0){
+				//Moving Down
+				image_speed = 1;
+				sprite_index = sZombieDown;
+				idleSprite = sZombieDown;
+		
+			}else{
+				image_speed = 0;
+				image_index = 0;
+				sprite_index = idleSprite;
+			}
+		}
+	
 	break;
 }
+
+
+//Attacking sprite stuff
+
+if(sprite_index == sZombieRight){
+	attackCollisionMask = sZombieRightMask;
+	attackSprite = sZombieRightAttack;
+}else if(sprite_index == sZombieLeft){
+	attackCollisionMask = sZombieLeftMask;
+	attackSprite = sZombieLeftAttack;
+}else if(sprite_index == sZombieDown){
+	attackCollisionMask = sZombieDownMask;
+	attackSprite = sZombieDownAttack;
+}else if(sprite_index == sZombieUp){
+	attackCollisionMask = sZombieUpMask;
+	attackSprite = sZombieUpAttack;
+}
+
 
 if(isAttacking){
 	if(sprite_index != attackSprite){
@@ -66,23 +126,6 @@ if(isAttacking){
 }
 
 
-
-//Attacking sprite stuff
-
-//0 = right; 1 = Up; 2 = Left; 3 = Down
-if(directionNum == 0){
-	attackCollisionMask = sZombieRightMask;
-	attackSprite = sZombieRightAttack;
-}else if(directionNum == 1){
-	attackCollisionMask = sZombieUpMask;
-	attackSprite = sZombieUpAttack;
-}else if(directionNum == 2){
-	attackCollisionMask = sZombieLeftMask;
-	attackSprite = sZombieLeftAttack;
-}else if(directionNum == 3){
-	attackCollisionMask = sZombieDownMask;
-	attackSprite = sZombieDownAttack;
-}
 
 
 
