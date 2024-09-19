@@ -7,8 +7,8 @@ enemySpd = 1;
 playerSpd = 10;
 accel = 4;
 frict = .3;
-stunTime = 30;
-isStunned = false;
+//0 = right; 1 = Up; 2 = Left; 3 = Down
+directionNum = 0;
 
 //pathing
 target = oPlayerGhost;
@@ -27,3 +27,5 @@ atkCD = 60;
 atkRange = 10;
 canAttack = true;
 isAttacking = false;
+stunTime = 30;
+isStunned = false;

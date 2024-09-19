@@ -11,8 +11,9 @@ atkRange = 30;
 pathingUpdateWait = 10;
 stunTime = 120;
 
-attackCollisionMask = sZombieSlashMask;
+attackCollisionMask = sZombieLeftMask;
 attackSprite = sZombieLeftAttack;
+idleSprite = sZombieDown;
 
 enum STATE{
 	attacking,

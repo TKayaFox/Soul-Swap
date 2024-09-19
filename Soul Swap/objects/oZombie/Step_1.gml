@@ -22,6 +22,17 @@ switch(states){
 	
 	case STATE.pathing:
 		isPathing = true;
+		//Sprite Stuff
+		//0 = right; 1 = Up; 2 = Left; 3 = Down
+		if(directionNum == 0){
+			sprite_index = sZombieRight
+		}else if(directionNum == 1){
+			sprite_index = sZombieUp
+		}else if(directionNum == 2){
+			sprite_index = sZombieLeft
+		}else if(directionNum == 3){
+			sprite_index = sZombieDown
+		}
 	break;
 	
 	case STATE.stunned:
@@ -47,10 +58,49 @@ if(isAttacking){
 	}
 	
 	if(image_index >= image_number - 1){
-		sprite_index = sZombieDown;
+		sprite_index = idleSprite;
 		isAttacking = false;
 		if(player_possessed) states = STATE.possessed;
 		else states = STATE.pathing;
 	}
 }
+
+
+
+//Attacking sprite stuff
+
+//0 = right; 1 = Up; 2 = Left; 3 = Down
+if(directionNum == 0){
+	attackCollisionMask = sZombieRightMask;
+	attackSprite = sZombieRightAttack;
+}else if(directionNum == 1){
+	attackCollisionMask = sZombieUpMask;
+	attackSprite = sZombieUpAttack;
+}else if(directionNum == 2){
+	attackCollisionMask = sZombieLeftMask;
+	attackSprite = sZombieLeftAttack;
+}else if(directionNum == 3){
+	attackCollisionMask = sZombieDownMask;
+	attackSprite = sZombieDownAttack;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

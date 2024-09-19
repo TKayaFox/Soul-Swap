@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Zombie",
-    "path":"folders/Sprites/Mobs/Zombie.yy",
+    "name":"ZombieAttacks",
+    "path":"folders/Sprites/Mobs/Zombie/ZombieAttacks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

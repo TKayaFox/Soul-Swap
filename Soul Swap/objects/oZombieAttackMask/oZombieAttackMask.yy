@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sZombieSlashMask",
-    "path":"sprites/sZombieSlashMask/sZombieSlashMask.yy",
+    "name":"sZombieLeftMask",
+    "path":"sprites/sZombieLeftMask/sZombieLeftMask.yy",
   },
   "spriteMaskId":null,
   "visible":false,
