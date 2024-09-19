@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 6F54ABB5
-/// @DnDArgument : "room" "rmLevel"
-/// @DnDSaveInfo : "room" "rmLevel"
-room_goto(rmLevel);
+/// @DnDArgument : "room" "rmDebugLargeRoom"
+/// @DnDSaveInfo : "room" "rmDebugLargeRoom"
+room_goto(rmDebugLargeRoom);
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1

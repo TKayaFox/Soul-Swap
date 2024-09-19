@@ -1,6 +1,11 @@
 /// @description Initialize
 var player_vessel=0;
 
+//for highscores
+highscore_clear();
+global.playerName = "Player";
+global.PlayerScore = 0;
+
 
 ///================================
 //		      Pathing

@@ -12,7 +12,8 @@ function Try_Possession(range)
 		vessel.team = 1;
 		Update_Player_Instance(vessel.id);
 		
-		//Destroy ghost
+		//Destroy ghost and prevent game from ending
+		endGameOnDestroy = false;
 		instance_destroy();
 	}
 }
