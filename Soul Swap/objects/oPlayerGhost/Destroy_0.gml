@@ -1,2 +1,4 @@
 /// @description Player Death Logic
-Player_Death();
+if(endGameOnDestroy){
+	Player_Death();
+}
