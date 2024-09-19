@@ -10,8 +10,13 @@ atkCD = 60;
 atkRange = 10;
 pathingUpdateWait = 10;
 
+attackCollisionMask = sZombieSlashMask;
+attackSprite = sZombieLeftAttack;
+
 enum STATE{
 	attacking,
-	pathing,	
+	pathing,
+	stopped,
+	possessed
 }
-states = STATE.pathing;
+states = STATE.stopped;

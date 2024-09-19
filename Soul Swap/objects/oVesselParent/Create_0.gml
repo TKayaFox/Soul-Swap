@@ -23,3 +23,5 @@ pathOffset = 20;
 damage = 1;
 atkCD = 60;
 atkRange = 10;
+canAttack = true;
+isAttacking = false;

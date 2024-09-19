@@ -16,7 +16,6 @@ if(point_direction(x,y,target.x,target.y) > 45 && point_direction(x,y,target.x,t
 	yOffset = -pathOffset;
 }else if(point_direction(x,y,target.x,target.y) >= 315 or point_direction(x,y,target.x,target.y) <= 45){
 	//Left Face of target
-	show_debug_message("Hi");
 	xOffset = -pathOffset;
 	yOffset = 0;
 }
@@ -36,7 +35,6 @@ if (player_possessed == false)
 		path_end();
 	}
 }
-
 //else allow player input
 else
 {
