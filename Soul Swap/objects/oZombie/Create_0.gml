@@ -7,15 +7,18 @@ event_inherited();
 hp = 5;
 damage = 1;
 atkCD = 60;
-atkRange = 10;
-
+atkRange = 30;
+pathingUpdateWait = 10;
+stunTime = 120;
+target = oPlayerGhost;
+attackCollisionMask = sZombieLeftMask;
+attackSprite = sZombieLeftAttack;
+idleSprite = sZombieDown;
 
 enum STATE{
-	possessed,
-	pathing,
-	stopped,
 	attacking,
-	dead
+	pathing,
+	stunned,
+	possessed
 }
-
 states = STATE.pathing;

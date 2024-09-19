@@ -16,6 +16,7 @@ if (keyboard_check(possess_key) || keyboard_check(possess_key2))
 	else
 	{
 		possess_key_held += 1;
+		endGameOnDestroy = true;
 	}
 }
 else //no longer held, nullify counter

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Vessel_Leave",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Vessel_Leave",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

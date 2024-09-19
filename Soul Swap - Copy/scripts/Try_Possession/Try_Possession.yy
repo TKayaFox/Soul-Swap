@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Try_Possession",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Try_Possession",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
