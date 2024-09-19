@@ -40,7 +40,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"Soul Swap",
   "resources":[
@@ -129,8 +129,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rmDebugLargeRoom","path":"rooms/rmDebugLargeRoom/rmDebugLargeRoom.yy",},},
     {"roomId":{"name":"rmTitle","path":"rooms/rmTitle/rmTitle.yy",},},
+    {"roomId":{"name":"rmDebugLargeRoom","path":"rooms/rmDebugLargeRoom/rmDebugLargeRoom.yy",},},
     {"roomId":{"name":"rmLevel","path":"rooms/rmLevel/rmLevel.yy",},},
     {"roomId":{"name":"rmInstructions","path":"rooms/rmInstructions/rmInstructions.yy",},},
     {"roomId":{"name":"rmRoom1","path":"rooms/rmRoom1/rmRoom1.yy",},},
