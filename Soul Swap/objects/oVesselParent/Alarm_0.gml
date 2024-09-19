@@ -1,5 +1,5 @@
 /// @description Pathing
-
+if(isPathing){
 //get player instance id from controller
 target = oController.player_vessel;
 
@@ -12,4 +12,5 @@ if (instance_exists(target))
 	mp_grid_path(global.grid,path,x,y,target.x,target.y,diagonalPathing);
 	path_start(path,enemySpd,0,true);
 	alarm_set(0,pathingUpdateWait);
+}
 }
