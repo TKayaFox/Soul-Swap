@@ -11,6 +11,7 @@ function Hit(damage, target)
 		if (target.hp <= 0)
 		{
 			instance_destroy(target);
+			global.PlayerScore += 10;
 		}
 	}
 }
