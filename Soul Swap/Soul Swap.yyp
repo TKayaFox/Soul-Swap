@@ -33,8 +33,8 @@
     {"$GMFolder":"","%Name":"PlayerGhost","folderPath":"folders/Sprites/Mobs/PlayerGhost.yy","name":"PlayerGhost","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Skeleton","folderPath":"folders/Sprites/Mobs/Skeleton.yy","name":"Skeleton","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Zombie","folderPath":"folders/Sprites/Mobs/Zombie.yy","name":"Zombie","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"ZombieCollisionMasks","folderPath":"folders/Sprites/Mobs/Zombie/ZombieCollisionMasks.yy","name":"ZombieCollisionMasks","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ZombieAttacks","folderPath":"folders/Sprites/Mobs/Zombie/ZombieAttacks.yy","name":"ZombieAttacks","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"ZombieCollisionMasks","folderPath":"folders/Sprites/Mobs/Zombie/ZombieCollisionMasks.yy","name":"ZombieCollisionMasks","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ZombieMovement","folderPath":"folders/Sprites/Mobs/Zombie/ZombieMovement.yy","name":"ZombieMovement","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -43,7 +43,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Soul Swap",
   "resources":[
@@ -65,7 +65,6 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"oZombie","path":"objects/oZombie/oZombie.yy",},},
     {"id":{"name":"oZombieAttackMask","path":"objects/oZombieAttackMask/oZombieAttackMask.yy",},},
-    {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
     {"id":{"name":"rmDebugLargeRoom","path":"rooms/rmDebugLargeRoom/rmDebugLargeRoom.yy",},},
     {"id":{"name":"rmInstructions","path":"rooms/rmInstructions/rmInstructions.yy",},},
     {"id":{"name":"rmLevel","path":"rooms/rmLevel/rmLevel.yy",},},
