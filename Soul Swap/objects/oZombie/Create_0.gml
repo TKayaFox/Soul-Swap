@@ -6,8 +6,8 @@ event_inherited();
 
 hp = 10;
 damage = 1;
-atkCD = 20;
-atkRange = 10;
+atkCD = 60;
+atkRange = 30;
 pathingUpdateWait = 10;
 stunTime = 120;
 

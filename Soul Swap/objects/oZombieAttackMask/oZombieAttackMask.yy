@@ -35,5 +35,5 @@
     "path":"sprites/sZombieSlashMask/sZombieSlashMask.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

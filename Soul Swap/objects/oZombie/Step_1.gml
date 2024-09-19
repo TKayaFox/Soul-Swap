@@ -1,11 +1,16 @@
 keyAttack = keyboard_check_pressed(vk_space);
 
+
+//Attack when in possession state
 if(keyAttack & canAttack & player_possessed){
 	states = STATE.attacking
 }
-if(isStunned){
-	states = STATE.stunned;
+
+if(!player_possessed && point_distance(x,y,target.x,target.y) <= atkRange && canAttack){
+	states = STATE.attacking;
 }
+
+if(isStunned)	states = STATE.stunned;
 
 switch(states){
 	case STATE.attacking:
@@ -48,3 +53,4 @@ if(isAttacking){
 		else states = STATE.pathing;
 	}
 }
+
