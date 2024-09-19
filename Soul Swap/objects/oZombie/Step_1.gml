@@ -12,6 +12,19 @@ if(!player_possessed && point_distance(x,y,target.x,target.y) <= atkRange && can
 	states = STATE.attacking;
 }
 
+if(point_distance(x,y,target.x,target.y) <= detectiongRange){
+	states = STATE.pathingToTarget;
+	pathX = x;
+	pathY = y;
+	pathPosition = path_position;
+}else{
+	if(states == STATE.pathingToTarget) states = STATE.returnToPath;
+}
+
+if(states = STATE.pathingToGate && path_position == 1){
+	states = STATE.attacking;
+}
+
 if(isStunned)	states = STATE.stunned;
 
 switch(states){
@@ -23,7 +36,7 @@ switch(states){
 		if(alarm[1] == -1) alarm[1] = atkCD;
 	break;
 	
-	case STATE.pathing:
+	case STATE.pathingToTarget:
 		isPathing = true;
 		//Pahting sprite Stuff
 		//0 = right; 1 = Up; 2 = Left; 3 = Down
@@ -40,6 +53,19 @@ switch(states){
 			sprite_index = sZombieDown;
 			idleSprite = sZombieDown;
 		}
+	break;
+	
+	case STATE.returnToPath:
+		var distance = point_distance(x,y,pathX,pathY);
+		move_towards_point(pathX,pathY,min(distance,enemySpd));
+		if(x == pathX and y == pathY){
+			states = STATE.pathingToGate;
+		}
+	break;
+	
+	case STATE.pathingToGate:
+		path_start(Path2,enemySpd,0,false);
+		path_position = pathPosition;
 	break;
 	
 	case STATE.stunned:
@@ -121,14 +147,9 @@ if(isAttacking){
 		sprite_index = idleSprite;
 		isAttacking = false;
 		if(player_possessed) states = STATE.possessed;
-		else states = STATE.pathing;
+		else states = STATE.pathingToGate;
 	}
 }
-
-
-
-
-
 
 
 

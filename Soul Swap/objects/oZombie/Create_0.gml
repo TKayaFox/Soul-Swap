@@ -17,8 +17,13 @@ idleSprite = sZombieDown;
 
 enum STATE{
 	attacking,
-	pathing,
+	pathingToGate,
+	returnToPath,
+	pathingToTarget,
 	stunned,
-	possessed
+	possessed,
+	pursuing
 }
-states = STATE.pathing;
+states = STATE.returnToPath;
+
+path_start(Path2,enemySpd,0,false);

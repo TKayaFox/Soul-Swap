@@ -21,6 +21,10 @@ xOffset = 0;
 yOffset = 0;
 pathOffset = 20;
 
+pathX = x;
+pathY = y;
+pathPosition = 0;
+
 //attacking
 damage = 1;
 atkCD = 60;
@@ -29,3 +33,4 @@ canAttack = true;
 isAttacking = false;
 stunTime = 30;
 isStunned = false;
+detectiongRange = 100;

@@ -1,7 +1,5 @@
 /// @description Player or AI Control
 
-
-
 //only do AI logic if computer controlled
 if (player_possessed == false)
 {

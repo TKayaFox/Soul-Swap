@@ -1,4 +1,4 @@
 /// @description Stunned
 sprite_index = idleSprite;
-states = STATE.pathing;
+states = STATE.returnToPath;
 isStunned = false;
