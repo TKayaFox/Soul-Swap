@@ -10,6 +10,12 @@ if (player_possessed == false)
 			alarm[0] = pathingUpdateWait;
 		}
 	}
+	
+	//Make sure Attacking timer is working properly
+	if(alarm[1] = -1){
+		//Pathing
+		alarm[1] = atkCD;
+	}
 }
 
 //else allow player input
