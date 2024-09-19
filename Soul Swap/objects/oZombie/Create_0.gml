@@ -4,7 +4,7 @@ event_inherited();
 
 //set a new HP value
 
-hp = 10;
+hp = 5;
 damage = 1;
 atkCD = 60;
 atkRange = 10;
