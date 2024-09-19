@@ -10,9 +10,9 @@ function Player_Movement(pSpeed, pAcceleration, pFriction, collisionBuffer){
 	var keyLeft = keyboard_check(ord("A"));
 	var keyDown = keyboard_check(ord("S"));
 	var keyRight = keyboard_check(ord("D"));
-
-	var inputX = keyRight - keyLeft;
-	var inputY = keyDown - keyUp;
+	
+	inputX = keyRight - keyLeft;
+	inputY = keyDown - keyUp;
 
 
 	//Acceleration and Friction Math
